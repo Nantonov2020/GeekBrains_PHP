@@ -1,0 +1,42 @@
+.container{
+    width: 1200px;
+    background-color: silver;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.title{
+    margin: 15px auto;  
+}
+
+.wpr{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 380px;
+    padding: 10px;
+}
+
+.img:hover{
+    outline: 1px solid red;
+}
+
+.img_big{
+    display: block;
+    width: 900px;
+    margin: 20px auto;
+}
+
+.link{
+    display: block;
+    margin: 20px auto;
+}
+
+.wpr2{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
