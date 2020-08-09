@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.reviews{
+    margin: 0 auto;
+    background-color:lightsteelblue;
+}
+
+.reviews__title{
+    margin: 0 auto;
+    width: 10%;
+}
+
+.reviews__item{
+    width: 75%;
+    background-color:silver;
+    margin: 5px auto;
+    margin-bottom: 25px;
+    border: 1px solid #000;
+}
+
+.reviews__item__footer{
+    background-color:lightskyblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__autor{
+    color:red;
+    margin-left: 20px;
+}
+
+.reviews__time{
+    color:green;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.reviews__text{
+    color:darkblue;
+    padding: 10px;
+}
+
+.send{
+    margin: 0 auto;
+    background-color:lightpink;
+    min-height: 200px;
+    padding: 20px;
+}
