@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
+
+.basket_window{
+    width: 800px;
+    min-height: 400px;
+    position: absolute;
+    top: 85px;
+    left: 200px;
+    background-color: lightgrey;
+    display: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.close_basket{
+    height: 20px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.close{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.table{
+    width: 80%;
+    border: 1px solid #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+}
+
+.table td,
+.table th{
+    border: 1px solid #000;
+}
+
+.header{
+    width: 100%;
+    height: 20px;
+    background-color:yellow;
+}
+
+.title{
+    color:green;
+    font-size: 30px;
+}
+
+.wpr{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    width: 45%;
+    margin: 5px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.item__wpr{
+    padding: 5px;
+    height: 215px;
+    width: 50%;
+}
+
+.item_img{
+    width: 300px;
+    height: 200px;
+}
+
+.item__title{
+    font-size: 20px;
+    color:red;
+    padding: 3px;
+    padding-top: 0;
+}
+
+.item__text{
+    color:blue;
+    font-size: 12px;
+}
+
+.item__manufacturer{
+    color: green;
+    font-size: 16px;
+}
+
+.item__price{
+    color:darkslategrey;
+    font-size: 18px;
+}
+
+.img_big{
+    width: 800px;
+}
+
+.product_wpr{
+    display: flex;
+}
+
+.product_wpr_wpr{
+    padding: 5px;
+}
+
+.product__title{
+    color:red;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.product__text{
+    color:darkblue;
+    font-size: 14px;
+}
+
+.product__manufacture{
+    color:green;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.product__price{
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product__button{
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+}
+
+.product__link{
+    font-size: 30px;
+    color:green;
+    display: block;
+    margin: 15px;
+}
